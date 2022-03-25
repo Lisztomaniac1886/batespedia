@@ -1,6 +1,6 @@
 document.write( '<div class=\"desktoponly\">\n' );
 document.write( '<header class=\"cosmos-header\">\n' );
-document.write( '   <div class=\"cosmos-header__wordmark\" bis_skin_checked=\"1\"><a href=\"/\" title=\"იხილეთ მთავარი გვერდი\"><img src=\"pictures/Wiki-wordmark.png\" alt=\"ბეიტსის მოტელის ვიკი\"></a></div>\n' );
+document.write( '   <div class=\"cosmos-header__wordmark\" bis_skin_checked=\"1\"><a href=\"/\" title=\"იხილეთ მთავარი გვერდი\"><img src=\"Pictures/Wiki-wordmark.png\" alt=\"ბეიტსის მოტელის ვიკი\"></a></div>\n' );
 document.write( '   <div class=\"cosmos-header__top-container\" bis_skin_checked=\"1\">\n' );
 document.write( '      <div class=\"cosmos-header__sitename\" bis_skin_checked=\"1\"><a href=\"/\">ბეიტსის მოტელის ენციკლოპედია</a></div>\n' );
 document.write( '      <div class=\"cosmos-header__counter\" bis_skin_checked=\"1\">\n' );
