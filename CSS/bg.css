@@ -1,0 +1,7 @@
+body {
+  background-image: url('../Pictures/Wiki-background2.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  z-index:-2;
+  background-size: cover;      
+  }

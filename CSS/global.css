@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Ertizomis1';
+    src: url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Ertizomis1/fonts/bpg-quadrosquare-2013-webfont.svg#bpg_quadrosquare_2013regular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Ertizomis2';
+    src: url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Ertizomis2/fonts/alk-rounded-mtav-med-webfont.svg#alk_rounded_mtav_medregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Khelnatseri1';
+    src: url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Khelnatseri1/fonts/bpg-classic-medium-webfont.svg#bpg_classic_mediumregular') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Nuskhuri1';
+    src: url('fonts/arial-geo-master/fonts/arial-geo-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/arial-geo-master/fonts/arial-geo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/arial-geo-master/fonts/arial-geo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/arial-geo-master/fonts/arial-geo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/arial-geo-master/fonts/arial-geo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/arial-geo-master/fonts/arial-geo-webfont.svg#arial_georegular') format('svg'); /* Legacy iOS */
+}
+body {
+  background-color: #04070c;
+  color: #e6e6e6;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+    background-color: #1a1a1a;
+    min-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  margin: 0;
+}
+.pageseparator {
+    background-color: #4a4a4a;
+    border: 0;
+    height: 1px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.wikiheader {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.wikiheader h1 {
+font-family: Ertizomis1
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+.slideshow-container img {
+  vertical-align: middle;
+    border: 2px solid #656565;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 98%;
+  padding-top: 10px;
+}
+
+.nolink {
+  text-decoration: none;
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text span {
+  color: white;
+  background-color: #1a1a1a80;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.gallery-item-1 {
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.contents p {
+font-family: Nuskhuri1;
+}

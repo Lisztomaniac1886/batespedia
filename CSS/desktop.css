@@ -1,0 +1,137 @@
+.contents {
+    background-color: black;
+    width:76%;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.navbar {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #7bc0d5;
+  background-size: contain;
+  height: 105px;
+  position: relative;
+  z-index: 1;
+}
+
+.wordmark {
+  float: left;
+  height: 65px;
+  margin: 20px 0 20px 20px;
+  max-width: 250px;
+  width: auto;
+}
+.wordmark img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+}
+.topcontainer {
+  display: flex;
+  height: 59px;
+}
+.sitename {
+    overflow: hidden;
+    flex: 1;
+    margin: 25px 0 0 18px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    color: black;
+}
+.pagecounter {
+    margin: 17px 20px 20px 20px;
+    font-weight: 600;
+    text-align: right;
+    color: black;
+}
+.countervalue {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+}
+.counterlabel {
+      display: block;
+      margin-top: 3px;
+      font-size: 12px;
+      line-height: 1;
+      text-transform: uppercase;
+}
+.bottomcontainer {
+    display: flex;
+    height: 46px;
+    padding-left: 6px;
+}
+.tabs {
+    scrollbar-width: none;
+    align-items: flex-end;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.tabs-tab {
+    color: black;
+    cursor: default;
+    flex-shrink: 0;
+    line-height: 14px;
+    position: relative;
+    transition: box-shadow .1s;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.tab-label {
+  align-items: center;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: .5px;
+  margin: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+  white-space: nowrap;
+}
+.tab-label a {
+  color: inherit;
+}
+.dropdown-toggle {
+  cursor: default;
+  position: relative;
+}
+.navbox .tabs .tab-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+.icon {
+    fill: currentColor;
+    height: 24px;
+    min-width: 24px;
+    width: 24px;
+}
+.icon-tiny {
+    height: 12px;
+    min-width: 12px;
+    width: 12px;
+}
+
+.icon .icon-tiny .toggle-chevron {
+  opacity: .5;
+  color: #1a1a1a;
+}
+.tab-label :not(:first-child):not(:only-child) {
+    margin-left: 4px;
+}
+.tabs:hover {
+  
+}

@@ -1,0 +1,296 @@
+.portable-infobox h3{
+  border-bottom: 0;
+  font-family: inherit;
+  font-weight: 700;
+  margin: 0;
+  font-size: 13px;
+}
+.page-content .portable-infobox .pi-title{
+    font-size:18px;
+    line-height:1.25;
+    padding:12px 9px
+}
+.page-content .portable-infobox .pi-header{
+    font-size:14px;
+    line-height:1.25;
+    padding:9px
+}
+.page-content .portable-infobox .pi-data-label{
+    font-size:12px;
+    line-height:1.5
+}
+.portable-infobox{
+    --pi-background:var(--theme-page-background-color);
+    --pi-secondary-background:var(--theme-accent-color);
+    --pi-secondary-background--label:var(--theme-accent-label-color);
+    --pi-border-color:rgba(var(--theme-accent-color--rgb),0.5);
+    border-radius:3px;
+    border-style:solid;
+    border-width:1px;
+    clear:right;
+    float:right;
+    margin:0 0 18px 18px;
+    width:270px
+}
+.pi-item-spacing{
+    padding-bottom:9px;
+    padding-top:9px
+}
+.pi-border-color{
+    border-color:#73BCD4
+}
+.pi-background{
+    background-color:black;
+}
+.pi-secondary-background{
+    background:#72bcd4;
+    color:black;
+}
+.pi-secondary-background+.pi-secondary-background{
+    border-top:1px solid var(--pi-background)
+}
+.pi-secondary-background+*>.pi-data:first-child,.pi-secondary-background+.pi-data{
+    border-top:0
+}
+.portable-infobox .pi-secondary-background a{
+    color:inherit
+}
+.pi-font{
+    font-size:12px
+}
+.pi-secondary-font{
+    font-size:14px;
+    font-weight:700;
+    line-height:1.25;
+    margin-top:0
+}
+.pi-caption,.pi-data,.pi-header,.pi-navigation,.pi-title{
+    padding-left:9px;
+    padding-right:9px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pi-header,.pi-title{
+    text-align:center
+}
+.pi-data{
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    grid-column-gap:9px;
+    border-top-style:solid;
+    border-top-width:1px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display:-webkit-box;
+    display:flex;
+    flex-direction:row;
+    overflow:hidden
+}
+.pi-image+.pi-data,.pi-image-collection+.pi-data,.pi-secondary-background+.pi-data,.portable-infobox>.pi-data:first-child{
+    border-top:0
+}
+.pi-layout-stacked .pi-data{
+    display:block
+}
+.pi-data-label{
+    flex-basis:150px;
+    margin:0;
+    overflow:hidden
+}
+.pi-data-label,.pi-data-value{
+    -webkit-hyphens:auto;
+    hyphens:auto
+}
+.pi-data-value{
+    line-height:1.5;
+    overflow-wrap:break-word;
+    text-align: left;
+}
+.pi-data-value>*{
+    margin:0
+}
+.pi-data-value:not(:first-child){
+    flex-basis:220px
+}
+.pi-image{
+    text-align:center
+}
+.pi-image img{
+    height:auto;
+    max-width:100%;
+    vertical-align:middle
+}
+.pi-caption{
+    word-wrap:break-word;
+    color:rgba(var(--theme-page-text-color--rgb),.6);
+    font-size:14px;
+    font-style:italic;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    text-align:center
+}
+.pi-horizontal-group{
+    border-collapse:collapse;
+    table-layout:fixed;
+    text-align:center;
+    width:100%
+}
+.pi-horizontal-group .pi-header{
+    display:table-caption;
+    text-align:left
+}
+.pi-horizontal-group .pi-secondary-background+* .pi-horizontal-group-item{
+    border-top:0
+}
+.pi-horizontal-group-item.pi-data-label{
+    border-top-style:solid;
+    border-top-width:1px;
+    padding:9px 9px 0
+}
+.pi-horizontal-group-item.pi-data-value{
+    padding:0 9px 9px
+}
+.pi-horizontal-group-item:not(:first-child){
+    border-left-style:solid;
+    border-left-width:1px
+}
+.pi-smart-group{
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    border-top-style:solid;
+    border-top-width:1px;
+    display:-webkit-box;
+    display:flex;
+    flex-direction:column;
+    text-align:center
+}
+.pi-smart-group .pi-smart-data-label{
+    margin-bottom:0;
+    padding-bottom:0
+}
+.pi-smart-group .pi-smart-data-value,.pi-smart-group h3.pi-smart-data-label{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    flex-basis:auto;
+    margin:3px 0;
+    padding:6px 9px
+}
+.pi-smart-group .pi-smart-data-value:not(:first-child),.pi-smart-group h3.pi-smart-data-label:not(:first-child){
+    border-left-style:solid;
+    border-left-width:1px
+}
+.pi-smart-group .pi-smart-data-value:first-child,.pi-smart-group h3.pi-smart-data-label:first-child{
+    padding-left:9px
+}
+.pi-smart-group .pi-smart-data-value:last-child,.pi-smart-group h3.pi-smart-data-label:last-child{
+    padding-right:9px
+}
+.pi-smart-group-body,.pi-smart-group-head{
+    display:-webkit-box;
+    display:flex
+}
+.pi-smart-group-head+.pi-smart-group-body{
+    border-top-style:solid;
+    border-top-width:1px
+}
+.pi-secondary-background+.pi-smart-group{
+    border-top:0
+}
+.pi-collapse.pi-collapse-closed{
+    border-bottom:none
+}
+.pi-collapse.pi-collapse-closed .pi-header:first-child:after{
+    -webkit-transform:rotate(135deg);
+    transform:rotate(135deg)
+}
+.pi-collapse.pi-collapse-closed .pi-horizontal-group tbody,.pi-collapse.pi-collapse-closed .pi-horizontal-group thead,.pi-collapse.pi-collapse-closed>:nth-child(n+2){
+    display:none
+}
+.pi-collapse .pi-header:first-child{
+    cursor:pointer;
+    padding-right:40px;
+    position:relative;
+    text-align:center
+}
+.pi-collapse .pi-header:first-child:after{
+    border-color:currentcolor;
+    border-style:solid;
+    border-width:2px 2px 0 0;
+    content:"";
+    display:inline-block;
+    display:block;
+    height:8px;
+    margin-top:-6px;
+    position:relative;
+    position:absolute;
+    right:0;
+    right:16px;
+    top:-1px;
+    top:50%;
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    -webkit-transition:-webkit-transform .3s;
+    transition:-webkit-transform .3s;
+    transition:transform .3s;
+    transition:transform .3s,-webkit-transform .3s;
+    vertical-align:middle;
+    width:8px
+}
+.WikiaArticle .pi-error-info{
+    background-color:var(--theme-alert-color);
+    color:var(--theme-alert-label);
+    font-size:18px;
+    line-height:28px;
+    margin:0;
+    padding:36px 50px
+}
+.WikiaArticle .pi-debug{
+    background-color:var(--theme-page-background-color--secondary);
+    font-family:monospace;
+    list-style-type:none;
+    margin:0;
+    width:100%
+}
+.WikiaArticle .pi-debug li{
+    margin:0
+}
+.WikiaArticle .pi-debug .error{
+    font-size:inherit
+}
+.pi-debug-line{
+    display:-webkit-box;
+    display:flex
+}
+.pi-debug-line-code,.pi-debug-line-number{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.pi-debug-line-number{
+    flex-basis:50px;
+    flex-shrink:0;
+    padding-left:9px
+}
+.pi-debug-error-message{
+    background-color:#1e0c1b;
+    color:#fff;
+    font-family:Helvetica,Arial,sans-serif;
+    margin:20px 0 10px 25px;
+    padding:9px 13.5px;
+    position:relative;
+    width:400px
+}
+.pi-debug-error-message:before{
+    border-bottom:18px solid #1e0c1b;
+    border-left:18px solid transparent;
+    border-right:18px solid transparent;
+    content:"";
+    display:block;
+    height:0;
+    left:25px;
+    position:absolute;
+    top:-18px;
+    width:0
+}
+.pi-debug-error-message .pi-debug-error-message-item{
+    margin:4.5px 0
+}
