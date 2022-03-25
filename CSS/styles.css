@@ -1,11 +1,11 @@
 .contents {
     background-color: black;
     width:75%;
-    min-height: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 65px;
     margin-bottom: 0;
+    height: auto;
 }
 .desktoponly {
   display:block;
@@ -83,7 +83,13 @@
     font-family: Ertizomis4;
     padding-top: 10px;
 }
-
+.content-h3 {
+  color: #d5d4d4;
+  font-weight: bold;
+  font-size: 1.17em;
+  font-family: Ertizomis4;
+  padding-top:5px;
+}
 
 /* infobox styles starts here*/
 
@@ -293,7 +299,7 @@ div.slideshow > div:first-child{
     }
     .tocnumber,.toctext{
         display:table-cell;
-        text-decoration:inherit
+        text-decoration:inherit;
         padding: 2px;
     }
     .tocnumber{
@@ -1863,7 +1869,8 @@ div.slideshow > div:first-child{
     #mw-content .toctitle h2{
         border-bottom:0;
         font-size:14px;
-        font-weight:bold
+        font-weight:bold;
+        cursor: pointer;
     }
     #mw-content .toc > ul{
         padding:10px;
@@ -2027,7 +2034,8 @@ div.slideshow > div:first-child{
         margin-inline-start:0
     }
     .toctitle h2{
-        border-bottom:0
+        border-bottom:0;
+        cursor: default;
     }
     #mw-content h2:after{
         display:none
