@@ -34,6 +34,15 @@
          url('fonts/arial-geo-master/fonts/arial-geo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('fonts/arial-geo-master/fonts/arial-geo-webfont.svg#arial_georegular') format('svg'); /* Legacy iOS */
 }
+@font-face {
+    font-family: 'Ertizomis4';
+    src: url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/bpg-nino-mtavruli-bold-master/fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
 body {
   background-color: #04070c;
   color: #e6e6e6;
@@ -163,4 +172,13 @@ font-family: Ertizomis1
 }
 .contents p {
 font-family: Nuskhuri1;
+}
+
+.content-h2 {
+    overflow: hidden;
+    padding-bottom: 4px;
+    border-bottom: solid 1px #333333;
+    font-weight: normal;
+    font-family: Ertizomis4;
+    padding-top: 10px;
 }
