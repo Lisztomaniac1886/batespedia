@@ -94,7 +94,10 @@
 /* infobox styles starts here*/
 
 
-
+.reference{
+  font-size: x-small;
+  vertical-align: super;
+}
 
 /* infobox styles ends here */
 
