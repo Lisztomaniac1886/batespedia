@@ -92,13 +92,12 @@
 }
 
 /* infobox styles starts here*/
-
-
-.reference{
-  font-size: x-small;
-  vertical-align: super;
+.page-content ol {
+    list-style-type: decimal;
 }
-
+.page-content ol, .page-content ul {
+    margin: 6px 0px 18px 36px;
+}
 /* infobox styles ends here */
 
 

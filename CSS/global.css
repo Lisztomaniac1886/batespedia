@@ -178,3 +178,10 @@ font-family: Nuskhuri1;
 .content-h2 {
   font-family: Ertizomis4;
 }
+.references li {
+  padding-bottom: 8px;
+}
+.reference{
+  font-size: x-small;
+  vertical-align: super;
+}
