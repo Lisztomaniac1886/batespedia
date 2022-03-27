@@ -101,6 +101,7 @@
 /* infobox styles ends here */
 
 
+
 .main {
   margin-left: 25px;
   margin-right: 25px;
@@ -1919,9 +1920,6 @@ div.slideshow > div:first-child{
         display:block;
         height:100%;
         font-size:0
-    }
-    body *{
-        font-family:'Helvetica Neue','Helvetica','Arial',sans-serif
     }
     body .create-title{
         color:#d5d4d4
