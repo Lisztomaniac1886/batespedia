@@ -195,3 +195,14 @@ font-family: Nuskhuri1;
   vertical-align: super;
   padding=right: 1px;
 }
+.letterjump {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align:center;
+  font-family: Ertizomis4;
+}

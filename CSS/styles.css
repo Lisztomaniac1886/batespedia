@@ -99,13 +99,60 @@
     margin: 6px 0px 18px 36px;
 }
 /* infobox styles ends here */
+.column1 {
+  float: left;
+  width: 46%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.column2 {
+  float: right;
+  width: 46%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.alphaletter {
+  font-family: Ertizomis4;
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+}
 
 .main {
   margin-left: 25px;
   margin-right: 25px;
 }
+
+.letterjump {
+  font-size: 25px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div.slideshow > div{
     display:none

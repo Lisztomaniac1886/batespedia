@@ -89,6 +89,68 @@
   margin-right: auto;
 }
 
+.column1 {
+  float: left;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.column2 {
+  float: left;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.alphaletter {
+  font-family: Ertizomis4;
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+}
+.main {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Nuskhuri1;
+}
+.letterjump {
+  font-size: 18px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .client-js .collapsible-block {
     display: none
@@ -2303,10 +2365,6 @@ ul.footer-info li,ul.footer-places li {
         display: block;
         height: 100%;
         font-size: 0
-    }
-
-    body * {
-        font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif
     }
 
     body .create-title {
