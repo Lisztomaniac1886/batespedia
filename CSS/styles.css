@@ -351,6 +351,7 @@ div.slideshow > div:first-child{
         display:table-cell;
         text-decoration:inherit;
         padding: 2px;
+        padding-right: 10px;
     }
     .tocnumber{
         color:#d5d4d4;
