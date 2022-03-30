@@ -319,7 +319,9 @@ div.slideshow > div:first-child{
     }
     .toc{
         display:table;
-        padding:7px
+        padding:7px;
+        margin-top: 2em;
+    margin-bottom: 2em;
     }
     .toc h2{
         display:inline;
@@ -334,12 +336,12 @@ div.slideshow > div:first-child{
     .toc ul{
         list-style-type:none;
         list-style-image:none;
-        margin:0.3em 0;
+        margin:0.3em 1em;
         padding:0;
         text-align:left
     }
     .toc ul ul{
-        margin:0 0 0 2em
+        margin:0 0 0 1em
     }
     table.toc{
         border-collapse:collapse
@@ -351,12 +353,12 @@ div.slideshow > div:first-child{
         display:table-cell;
         text-decoration:inherit;
         padding: 2px;
-        padding-right: 10px;
+        padding-right: 1px;
+        color: #e6e6e6;
     }
     .tocnumber{
-        color:#d5d4d4;
+        color:#7c7c7c;
         padding-left:5px;
-        padding-right:0.5em;
     }
     .mw-content-ltr .tocnumber{
         padding-left:0;
@@ -409,7 +411,7 @@ div.slideshow > div:first-child{
         text-align:right
     }
     .mw-content-ltr .toc ul ul,.mw-content-rtl .mw-content-ltr .toc ul ul{
-        margin:0 0 0 2em
+        margin:0 0 0 1em
     }
     .mw-content-rtl .toc ul ul,.mw-content-ltr .mw-content-rtl .toc ul ul{
         margin:0 2em 0 0
@@ -1945,10 +1947,13 @@ div.slideshow > div:first-child{
         border:1px solid #808080;
         margin:1em 0;
         background-color:transparent;
+        margin-top: 2em;
+    margin-bottom: 2em;
     }
     .toc .toctitle{
         position:relative;
-        padding:8px 16px
+        padding:8px 16px;
+        border-bottom: 1px solid #535353;
     }
     .toc .toctitle .toctogglespan{
         position:absolute;
@@ -2084,6 +2089,7 @@ div.slideshow > div:first-child{
     .toctitle h2{
         border-bottom:0;
         cursor: default;
+        color: #e6e6e6;
     }
     #mw-content h2:after{
         display:none
@@ -2653,7 +2659,9 @@ div.slideshow > div:first-child{
         border:0;
         background:none;
         page-break-after:avoid;
-        page-break-before:avoid
+        page-break-before:avoid;
+        margin-top: 2em;
+    margin-bottom: 2em;
     }
     .toc a{
         border:0;
@@ -2664,7 +2672,6 @@ div.slideshow > div:first-child{
         font-weight:bold
     }
     .toc ul{
-        margin:0;
         list-style:none
     }
     .toc ul ul{
