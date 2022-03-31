@@ -4,7 +4,7 @@ document.write( '   <div class=\"cosmos-header__wordmark\" bis_skin_checked=\"1\
 document.write( '   <div class=\"cosmos-header__top-container\" bis_skin_checked=\"1\">\n' );
 document.write( '      <div class=\"cosmos-header__sitename\" bis_skin_checked=\"1\"><a href=\"/\">ბეიტსის მოტელის ენციკლოპედია</a></div>\n' );
 document.write( '      <div class=\"cosmos-header__counter\" bis_skin_checked=\"1\">\n' );
-document.write( '        <span class=\"cosmos-header__counter-value\">6</span>\n' );
+document.write( '        <span class=\"cosmos-header__counter-value\">7</span>\n' );
 document.write( '        <span class=\"cosmos-header__counter-label\">გვერდი</span></div>\n' );
 document.write( '      <div class=\"cosmos-header__wiki-buttons wds-button-group\" bis_skin_checked=\"1\">\n' );
 document.write( '      </div>\n' );
