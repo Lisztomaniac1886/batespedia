@@ -177,7 +177,7 @@ document.write( '         </li>\n' );
 document.write( '         <li class=\"wds-tabs__tab\">\n' );
 document.write( '            <div class=\"wds-dropdown\" id=\"p-.E1.B2.9E.E1.B2.94.E1.B2.A0.E1.B2.A1.E1.B2.9D.E1.B2.9C.E1.B2.90.E1.B2.9F.E1.B2.94.E1.B2.91.E1.B2.98\" aria-labelledby=\"p-.E1.B2.9E.E1.B2.94.E1.B2.A0.E1.B2.A1.E1.B2.9D.E1.B2.9C.E1.B2.90.E1.B2.9F.E1.B2.94.E1.B2.91.E1.B2.98-label\" bis_skin_checked=\"1\">\n' );
 document.write( '               <div class=\"wds-tabs__tab-label  wds-dropdown__toggle\" id=\"p-.E1.B2.9E.E1.B2.94.E1.B2.A0.E1.B2.A1.E1.B2.9D.E1.B2.9C.E1.B2.90.E1.B2.9F.E1.B2.94.E1.B2.91.E1.B2.98-label\" bis_skin_checked=\"1\">\n' );
-document.write( '                  <a href=\"\">\n' );
+document.write( '                  <a href=\"Characters.html\">\n' );
 document.write( '                     <span>ᲞᲔᲠᲡᲝᲜᲐᲟᲔᲑᲘ</span>\n' );
 document.write( '                     <svg id=\"wds-icons-dropdown-tiny\" class=\"wds-icon wds-icon-tiny wds-dropdown__toggle-chevron\" width=\"14\" height=\"14\" viewBox=\"0 0 14 14\">\n' );
 document.write( '                        <path d=\"M 2 5 L 12 5 L 7 10 Z\"></path>\n' );
