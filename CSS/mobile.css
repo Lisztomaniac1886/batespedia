@@ -124,11 +124,29 @@
   color: black;
 }
 
+.CategorySelect.articlePage {
+    background-color: #262626;
+    background-image: none;
+    border: 1px solid gray;
+    clear: both;
+    line-height: normal;
+    position: relative;
+    width: 98%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.CategorySelect.articlePage .special-categories {
+    padding-left: 6px;
+    padding-top:6px;
+}
 
-
-
-
-
+.WikiaArticleInterlang {
+    align-items: baseline;
+    clear: both;
+    display: flex;
+    margin: 10px;
+    padding: 10px 0 0;
+}
 
 
 
