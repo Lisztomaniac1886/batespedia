@@ -3,7 +3,8 @@
   font-family: inherit;
   font-weight: 700;
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
+  font-family: serif;
 
 }
 .page-content .portable-infobox .pi-title{
@@ -72,7 +73,7 @@
     margin-bottom: 0;
 }
 .pi-header,.pi-title{
-    text-align:center
+    text-align:center;
 }
 .pi-data{
     -webkit-box-orient:horizontal;
@@ -111,7 +112,8 @@
     margin:0
 }
 .pi-data-value:not(:first-child){
-    flex-basis:220px
+    flex-basis:220px;
+    font-size: 16px;
 }
 .pi-image{
     text-align:center
