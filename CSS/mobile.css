@@ -2964,7 +2964,7 @@ ul.footer-info li,ul.footer-places li {
     display: none
 }
 
-@media screen and (min-width: 1155px) {
+@media screen and (min-width: 1250px) {
     body:after {
         position:fixed;
         z-index: -1;
@@ -2993,7 +2993,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media all and (max-width: 1155px) {
+@media all and (max-width: 1250px) {
     #cosmos-userOptions-messages {
         display:none
     }
@@ -3055,7 +3055,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media screen and (max-width: 1099px) and (min-width:1155px) {
+@media screen and (max-width: 1099px) and (min-width:1250px) {
     #mw-content {
         margin-top:0
     }
@@ -3071,7 +3071,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media screen and (max-width: 1099px) and (min-width:1155px) {
+@media screen and (max-width: 1099px) and (min-width:1250px) {
     #mw-content-wrapper {
         margin-top:auto
     }
@@ -3275,7 +3275,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media screen and (min-width: 1155px) {
+@media screen and (min-width: 1250px) {
     body,html {
         scroll-padding-top:3.625em
     }
@@ -3298,7 +3298,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media screen and (min-width: 1155px) and (max-width:1099px) {
+@media screen and (min-width: 1250px) and (max-width:1099px) {
     #mw-content-block {
         position:relative;
         max-width: 87em;
@@ -3319,7 +3319,7 @@ ul.footer-info li,ul.footer-places li {
     }
 }
 
-@media screen and (max-width: 1155px) {
+@media screen and (max-width: 1250px) {
     .cosmos-header__sitename a,.cosmos-header__local-navigation,.cosmos-header__wordmark,#cosmos-search-buttonContainer,.wds-button.wds-is-secondary.wds-dropdown__toggle {
         display:none
     }

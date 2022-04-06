@@ -6,11 +6,11 @@
 <meta name="keywords" content="">
 <meta name="author" content="Liszomaniac">
 <meta property="og:image" content="" />
-<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/bg.css">
-<link rel="stylesheet" media="screen and (max-width: 1155px)" href="CSS/mobile.css">
-<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/styles.css">
-<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/infobox-desktop.css">
-<link rel="stylesheet" media="screen and (max-width: 1155px)" href="CSS/infobox-mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 1250px)" href="CSS/bg.css">
+<link rel="stylesheet" media="screen and (max-width: 1250px)" href="CSS/mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 1250px)" href="CSS/styles.css">
+<link rel="stylesheet" media="screen and (min-width: 1250px)" href="CSS/infobox-desktop.css">
+<link rel="stylesheet" media="screen and (max-width: 1250px)" href="CSS/infobox-mobile.css">
 <link rel="stylesheet" href="CSS/global.css">
 <head>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,6 +21,9 @@
 <meta name="msapplication-TileColor" content="#da532c">
   <title>ძებნა | ბეიტსის მოტელის ენციკლოპედია</title>
 <style>
+.contents {
+  min-height: 1000px;
+}
 * {
   box-sizing: border-box;
 }
@@ -51,17 +54,23 @@ h1 {
 #myUL li a {
     border: 1px solid #ddd;
     margin-top: -1px;
-    background-color: #113e57;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
     display: block;
     color: #e6e6e6;
-    background-color: #151414;
 }
 
 #myUL li a:hover:not(.header) {
-    background-color: #3a3a3a;
+  background-color: #ffffff;
+  opacity: 0.30;
+  color: black;
+}
+.mainitem{
+  background-color: #113e57;
+}
+.categoryitem {
+  background-color: #6e1818;
 }
 </style>
 </head>
@@ -82,19 +91,19 @@ h1 {
 <li><a href="" title=""></a></li>
 -->
 <ul id="myUL">
-  <li><a href="Byron_Noble.html" title="ბაირონ ნობლი">ბაირონ ნობლი | Byron Noble</a></li>
-  <li><a href="White_Pine_Bay_High_School.html" title="თეთრი ფიჭვების ყურის საშუალო სკოლა">თეთრი ფიჭვების ყურის საშუალო სკოლა | White Pine Bay High School</a></li>
-  <li><a href="/" title="მთავარი გვერდი">მთავარი გვერდი | Main Page</a></li>
-  <li><a href="Norman_Bates.html" title="ნორმან ბეიტსი">ნორმან ბეიტსი | Norman Bates</a></li>
-  <li><a href="Norma_Bates.html" title="ნორმა ბეიტსი">ნორმა ბეიტსი | Norma Bates</a></li>
-  <li><a href="Ryan_Pena.html" title="რაიან პენა">რაიან პენა | Ryan Pena</a></li>
-  <li><a href="Ray_Calhoun.html" title="რეი კალჰუნი">რეი კალჰუნი | Ray Calhoun</a></li>
-  <li><a href="Francine_Calhoun.html" title="ფრენსინ კალჰუნი">ფრენსინ კალჰუნი | Francine Calhoun</a></li>
-  <li><a href="John_Massett.html" title="ჯონ მასეტი">ჯონ მასეტი | John Massett</a></li>
-  <li><a href="All_Pages.html" title="კატეგორია:ყველა გვერდი">კატეგორია: ყველა გვერდი | All Pages</a></li>
-  <li><a href="Category-Characters.html" title="კატეგორია:პერსონაჟები">კატეგორია: პერსონაჟები | Characters</a></li>
-  <li><a href="Category-Male_Character.html" title="კატეგორია:მამაკაცი პერსონაჟები">კატეგორია: მამაკაცი პერსონაჟები | Male Characters</a></li>
-  <li><a href="Category-Main_Characters.html" title="კატეგორია:მთავარი პერსონაჟები">კატეგორია: მთავარი პერსონაჟები | Main Characters</a></li>
+  <li class="mainitem"><a href="Byron_Noble.html" title="ბაირონ ნობლი">ბაირონ ნობლი | Byron Noble</a></li>
+  <li class="mainitem"><a href="White_Pine_Bay_High_School.html" title="თეთრი ფიჭვების ყურის საშუალო სკოლა">თეთრი ფიჭვების ყურის საშუალო სკოლა | White Pine Bay High School</a></li>
+  <li class="mainitem"><a href="/" title="მთავარი გვერდი">მთავარი გვერდი | Main Page</a></li>
+  <li class="mainitem"><a href="Norman_Bates.html" title="ნორმან ბეიტსი">ნორმან ბეიტსი | Norman Bates</a></li>
+  <li class="mainitem"><a href="Norma_Bates.html" title="ნორმა ბეიტსი">ნორმა ბეიტსი | Norma Bates</a></li>
+  <li class="mainitem"><a href="Ryan_Pena.html" title="რაიან პენა">რაიან პენა | Ryan Pena</a></li>
+  <li class="mainitem"><a href="Ray_Calhoun.html" title="რეი კალჰუნი">რეი კალჰუნი | Ray Calhoun</a></li>
+  <li class="mainitem"><a href="Francine_Calhoun.html" title="ფრენსინ კალჰუნი">ფრენსინ კალჰუნი | Francine Calhoun</a></li>
+  <li class="mainitem"><a href="John_Massett.html" title="ჯონ მასეტი">ჯონ მასეტი | John Massett</a></li>
+  <li class="categoryitem"><a href="All_Pages.html" title="კატეგორია:ყველა გვერდი">კატეგორია: ყველა გვერდი | All Pages</a></li>
+  <li class="categoryitem"><a href="Category-Characters.html" title="კატეგორია:პერსონაჟები">კატეგორია: პერსონაჟები | Characters</a></li>
+  <li class="categoryitem"><a href="Category-Male_Character.html" title="კატეგორია:მამაკაცი პერსონაჟები">კატეგორია: მამაკაცი პერსონაჟები | Male Characters</a></li>
+  <li class="categoryitem"><a href="Category-Main_Characters.html" title="კატეგორია:მთავარი პერსონაჟები">კატეგორია: მთავარი პერსონაჟები | Main Characters</a></li>
 
 </ul>
 </input>

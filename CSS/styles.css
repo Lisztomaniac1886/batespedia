@@ -2590,7 +2590,7 @@ div.slideshow > div:first-child{
 .toctogglecheckbox:checked ~ ul{
     display:none
 }
-@media screen and (min-width:1155px){
+@media screen and (min-width:1250px){
     body:after{
         position:fixed;
         z-index:-1;
@@ -2883,7 +2883,7 @@ div.slideshow > div:first-child{
         padding-bottom:0
     }
 }
-@media screen and (max-width:1155px){
+@media screen and (max-width:1250px){
     .cosmos-header__sitename a,.cosmos-header__local-navigation,.cosmos-header__wordmark,#cosmos-search-buttonContainer,.wds-button.wds-is-secondary.wds-dropdown__toggle{
         display:none
     }
