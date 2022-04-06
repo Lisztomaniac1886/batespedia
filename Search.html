@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Liszomaniac">
+<meta property="og:image" content="" />
+<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/bg.css">
+<link rel="stylesheet" media="screen and (max-width: 1155px)" href="CSS/mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/styles.css">
+<link rel="stylesheet" media="screen and (min-width: 1155px)" href="CSS/infobox-desktop.css">
+<link rel="stylesheet" media="screen and (max-width: 1155px)" href="CSS/infobox-mobile.css">
+<link rel="stylesheet" href="CSS/global.css">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+  <title>ძებნა | ბეიტსის მოტელის ენციკლოპედია</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color:white;
+  font-family: Ertizomis4;
+}
+#myInput {
+    width: 95%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #fff;
+    margin-bottom: 12px;
+    margin-top: 1px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 92%;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #113e57;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: #e6e6e6;
+    background-color: #151414;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #3a3a3a;
+}
+</style>
+</head>
+<body bgcolor="black">
+    <div class="contents">
+            <script src="nav.js"></script>
+            <!--title here-->
+              <div class="wikiheader">
+                  <h1>ძებნა</h1>
+                </div>
+                <hr class="pageseparator">
+                <center>
+
+    <div class="main">
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოძებნეთ სასურველი გვერდი" title="შეიყვანეთ საძიებო სიტყვა">
+<!--
+<li><a href="" title=""></a></li>
+-->
+<ul id="myUL">
+  <li><a href="Byron_Noble.html" title="ბაირონ ნობლი">ბაირონ ნობლი | Byron Noble</a></li>
+  <li><a href="White_Pine_Bay_High_School.html" title="თეთრი ფიჭვების ყურის საშუალო სკოლა">თეთრი ფიჭვების ყურის საშუალო სკოლა | White Pine Bay High School</a></li>
+  <li><a href="/" title="მთავარი გვერდი">მთავარი გვერდი | Main Page</a></li>
+  <li><a href="Norman_Bates.html" title="ნორმან ბეიტსი">ნორმან ბეიტსი | Norman Bates</a></li>
+  <li><a href="Norma_Bates.html" title="ნორმა ბეიტსი">ნორმა ბეიტსი | Norma Bates</a></li>
+  <li><a href="Ryan_Pena.html" title="რაიან პენა">რაიან პენა | Ryan Pena</a></li>
+  <li><a href="Ray_Calhoun.html" title="რეი კალჰუნი">რეი კალჰუნი | Ray Calhoun</a></li>
+  <li><a href="Francine_Calhoun.html" title="ფრენსინ კალჰუნი">ფრენსინ კალჰუნი | Francine Calhoun</a></li>
+  <li><a href="John_Massett.html" title="ჯონ მასეტი">ჯონ მასეტი | John Massett</a></li>
+  <li><a href="All_Pages.html" title="კატეგორია:ყველა გვერდი">კატეგორია: ყველა გვერდი | All Pages</a></li>
+  <li><a href="Category-Characters.html" title="კატეგორია:პერსონაჟები">კატეგორია: პერსონაჟები | Characters</a></li>
+  <li><a href="Category-Male_Character.html" title="კატეგორია:მამაკაცი პერსონაჟები">კატეგორია: მამაკაცი პერსონაჟები | Male Characters</a></li>
+  <li><a href="Category-Main_Characters.html" title="კატეგორია:მთავარი პერსონაჟები">კატეგორია: მთავარი პერსონაჟები | Main Characters</a></li>
+
+</ul>
+</input>
+</center>
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<br>
+</div>
+</div>
+<script src="footer.js"></script>
+</body>
+</html>

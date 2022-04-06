@@ -1206,6 +1206,13 @@ ul.footer-info li,ul.footer-places li {
         stroke-width: 2px;
         transition: filter 250ms ease
     }
+    .cosmos-button-primary1 {
+        background-color: transparent;
+        color: #000000;
+        stroke: #000000;
+        stroke-width: 2px;
+        transition: filter 250ms ease
+    }
 
     .cosmos-button-primary:hover {
         filter: brightness(110%)
@@ -3423,6 +3430,11 @@ ul.footer-info li,ul.footer-places li {
         font-size: 18px;
         font-weight: bold;
         transform: scale(1.4,1)
+    }
+    .cosmos-mobile-menu-button1 {
+        font-size: 18px;
+        font-weight: bold;
+        transform: scale(1,1)
     }
 
     .cosmos-mobile-navigation {
