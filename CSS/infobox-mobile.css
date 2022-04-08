@@ -151,7 +151,7 @@
     padding:9px 9px 0
 }
 .pi-horizontal-group-item.pi-data-value{
-    padding:4px 9px 9px
+    padding:6px 9px 9px
 }
 .pi-horizontal-group-item:not(:first-child){
     border-left-style:solid;
