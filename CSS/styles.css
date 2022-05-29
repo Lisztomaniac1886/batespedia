@@ -13,6 +13,9 @@
 .mobileonly {
   display:none;
 }
+.contents p {
+    font-family: Nuskhuri1;
+    }
 .content-block {
   background-color:#113e57;
   width:calc(100% - 400px);

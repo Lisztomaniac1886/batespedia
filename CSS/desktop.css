@@ -1,3 +1,6 @@
+body {
+  font-family: Nuskhuri1;
+}
 .contents {
     background-color: black;
     width:76%;
@@ -6,7 +9,12 @@
     margin-right: auto;
     margin-top: 65px;
 }
-
+.contents p {
+  font-family: Nuskhuri1;
+  }
+.contents p {
+  font-family: Nuskhuri1;
+  }
 .navbar {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
