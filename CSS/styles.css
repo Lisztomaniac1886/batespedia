@@ -268,7 +268,12 @@ svg:not(:root) {
     color: inherit;
 }
 
-
+.hiddensum {
+    display:none;
+}
+.unhiddensum {
+    display:block;
+}
 
 
 

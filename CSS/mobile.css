@@ -156,7 +156,12 @@ body {
     padding: 10px 0 0;
 }
 
-
+.hiddensum {
+    display:block;
+}
+.unhiddensum {
+    display:none;
+}
 
 
 
