@@ -50,6 +50,27 @@ body {
   margin: 0;
   padding: 0;
   }
+  /* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #7bc0d5; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7bc0d5; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #113e57; 
+}
 .cosmos-header__sitename {
 font-family: Ertizomis4;
 font-size: 30px;
@@ -188,7 +209,6 @@ font-family: Ertizomis1
 }
 .reference {
   font-size: x-small;
-  vertical-align: super;
 
 }
 .letterjump {

@@ -71,15 +71,10 @@ body {
   word-wrap: break-word;
 }
 .content-h2 {
-  overflow: hidden;
-  padding-bottom: 4px;
-  border-bottom: solid 1px #333333;
-  font-weight: normal;
-  font-family: Ertizomis4;
-  padding-top: 10px;
-  width: 96%;
-  margin-left: auto;
-  margin-right: auto;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 0.5em;
+    display: flex;
+    padding-top:10px;
 }
 .content-h3 {
   color: #d5d4d4;
@@ -385,7 +380,7 @@ ul.footer-info li,ul.footer-places li {
     }
 
     .toc {
-        display: none;
+        display: block;
         padding: 7px
     }
 
@@ -2364,40 +2359,54 @@ ul.footer-info li,ul.footer-places li {
         opacity: 0.9
     }
 
-    .toc {
-        display: none;
-        padding: 0;
-        border: 1px solid #333333;
-        margin: 1em 0;
-        background-color: #f8f9fa
+    .toc,.toccolours{
+        border:1px solid #a2a9b1;
+        background-color:#000;
+        padding:5px;
+        font-size:95%
     }
-
-    .toc .toctitle {
-        position: relative;
-        padding: 8px 16px
+    .toc{
+        display:table;
+        padding:7px;
+        margin-top: 2em;
+    margin-bottom: 2em;
     }
-
-    .toc .toctitle .toctogglespan {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 100%;
-        transition: background 250ms ease
+    .toc h2{
+        display:inline;
+        border:0;
+        padding:0;
+        font-size:100%;
+        font-weight:bold
     }
-
-    .toc .toctitle .toctogglespan:before,.toc .toctitle .toctogglespan:after {
-        content: none
+    .toc .toctitle{
+        text-align:center
     }
-
-    .toc .toctitle .toctogglespan:hover {
-        background-color: rgba(0,0,0,0.1)
+    .toc ul{
+        list-style-type:none;
+        list-style-image:none;
+        margin:0.3em 1em;
+        padding:0;
+        text-align:left
     }
-
-    .toc .toctitle .toctogglespan .toctogglelabel {
-        display: block;
-        height: 100%;
-        font-size: 0
+    .toc ul ul{
+        margin:0 0 0 1em
+    }
+    table.toc{
+        border-collapse:collapse
+    }
+    table.toc td{
+        padding:0
+    }
+    .tocnumber,.toctext{
+        display:table-cell;
+        text-decoration:inherit;
+        padding: 4px;
+        padding-right: 1px;
+        color: #e6e6e6;
+    }
+    .tocnumber{
+        color:#7c7c7c;
+        padding-left:5px;
     }
 
     body .create-title {
@@ -3379,7 +3388,6 @@ ul.footer-info li,ul.footer-places li {
     }
 
     .toc,.mw-warning {
-        width: 100%;
         box-sizing: border-box
     }
 
@@ -3469,7 +3477,7 @@ ul.footer-info li,ul.footer-places li {
 }
 
 
-.tg  {border:1px solid #72bcd4;border-spacing:0; width:100%; border-radius: 3px;float:right;margin: 0 0 18px 18px;table-layout: fixed;border-spacing: 0px;}
+.tg  {border:1px solid #72bcd4;border-spacing:0; width:270px; border-radius: 3px;float:right;margin: 0 0 18px 18px;table-layout: fixed;border-spacing: 0px;}
 .tg td{border:1px solid #72bcd4;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:9px 6px;word-break:normal;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;

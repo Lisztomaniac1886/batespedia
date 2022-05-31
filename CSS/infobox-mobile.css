@@ -56,9 +56,6 @@
 .portable-infobox .pi-secondary-background a{
     color:inherit
 }
-.pi-font{
-    font-size:12px
-}
 .pi-secondary-font{
     font-size:14px;
     font-weight:700;
@@ -94,7 +91,7 @@
     display:block
 }
 .pi-data-label{
-    flex-basis:150px;
+    flex-basis:160px;
     margin:0;
     overflow:hidden
 }
@@ -111,7 +108,7 @@
     margin:0
 }
 .pi-data-value:not(:first-child){
-    flex-basis:220px;
+    flex-basis:160px;
     font-size: 16px;
 }
 .pi-image{
