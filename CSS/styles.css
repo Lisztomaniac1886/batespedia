@@ -149,6 +149,13 @@
 .tg .tg-7{border-color:#72bcd4;text-align:center;vertical-align:middle; border-top:none;border-left:none;}
 .tg .tg-3 a {text-decoration: none; color:inherit}
 .tg td .tg-2 img {vertical-align: middle; text-align: center;}
+
+.figureleft {display: inline-block; vertical-align: top;clear:left;float:left; margin: 0 20px 16px 0;width:220px;}
+.figureright {display: inline-block; vertical-align: top;clear:right;float:right; margin: 0 20px 16px 0;width:220px;}
+.figureleft img {width:100%; margin-left: auto; margin-right: auto;}
+.figureright img {width:100%; margin-left: auto; margin-right: auto;}
+.figurecaption {font-size: 14px;line-height:16px;padding-top: 4px;padding-left: 3px;font-family:Sylfaen;color:#a8a8a8}
+
 .letterjump {
   font-size: 25px;
   color: gray;
