@@ -222,3 +222,5 @@ font-family: Ertizomis1
   text-align:center;
   font-family: Ertizomis4;
 }
+.music{margin: 1em 0;border: 1px solid #a2a9b1;border-collapse: collapse;margin-left:auto;margin-right: auto;}
+.music tr td {border: 1px solid #a2a9b1;}
