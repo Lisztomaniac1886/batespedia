@@ -224,3 +224,6 @@ font-family: Ertizomis1
 }
 .music{margin: 1em 0;border: 1px solid #a2a9b1;border-collapse: collapse;margin-left:auto;margin-right: auto;}
 .music tr td {border: 1px solid #a2a9b1;}
+.modal a {
+  color:#f2f2f2 !important;
+}
