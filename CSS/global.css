@@ -50,6 +50,10 @@ body {
   margin: 0;
   padding: 0;
   }
+  ::selection {
+    color: #113e57;
+    background: #72bcd4;
+  }
   /* width */
 ::-webkit-scrollbar {
   width: 14px;
