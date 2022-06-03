@@ -3557,6 +3557,7 @@ ul.footer-info li,ul.footer-places li {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0);
+    touch-action: manipulation;
 }
   /* Modal Content */
   .modal-content {
@@ -3565,6 +3566,7 @@ ul.footer-info li,ul.footer-places li {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    touch-action: manipulation;
   }
   
   /* The Close Button */
@@ -3575,6 +3577,7 @@ ul.footer-info li,ul.footer-places li {
     right: 25px;
     font-size: 35px;
     font-weight: bold;
+    touch-action: manipulation;
   }
   
   .GalleryClose:hover,
@@ -3588,6 +3591,7 @@ ul.footer-info li,ul.footer-places li {
     display: none;
     max-height: 550px;
     background-color: black;
+    touch-action: manipulation;
   }
   .GallerySlides img {
       max-height: 70vh;
@@ -3595,6 +3599,7 @@ ul.footer-info li,ul.footer-places li {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      touch-action: manipulation;
   }
   
   .cursor {
@@ -3606,7 +3611,7 @@ ul.footer-info li,ul.footer-places li {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    bottom: 18vh;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -3617,12 +3622,14 @@ ul.footer-info li,ul.footer-places li {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    touch-action: manipulation;
   }
   
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    touch-action: manipulation;
   }
   
   /* On hover, add a black background color with a little bit see-through */
