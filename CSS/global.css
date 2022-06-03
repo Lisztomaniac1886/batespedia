@@ -114,8 +114,9 @@ a {
     margin-right: 25px;
 }
 .wikiheader {
-  padding-left: 25px;
   padding-top: 10px;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 .wikiheader h1 {
 font-family: Ertizomis1
