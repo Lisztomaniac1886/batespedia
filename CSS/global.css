@@ -49,6 +49,7 @@ body {
   padding: 0;
   margin: 0;
   padding: 0;
+  position: relative !important;
   }
   ::selection {
     color: #113e57;
