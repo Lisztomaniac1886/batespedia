@@ -87,12 +87,12 @@ document.write( '                                    <li id=\"n-.E1.83.AC.E1.83.
 document.write( '                                    <li id=\"n-.E1.83.94.E1.83.AD.E1.83.95.E1.83.98.E1.83.A1-.E1.83.A9.E1.83.A0.E1.83.93.E1.83.98.E1.83.9A.E1.83.98\"><a href=\"Shadow_of_a_Doubt.html\">ეჭვის ჩრდილი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.99.E1.83.94.E1.83.9A.E1.83.94.E1.83.91.E1.83.98\"><a href=\"Caleb.html\">კელები</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.92.E1.83.90.E1.83.AC.E1.83.94.E1.83.A0.E1.83.90\"><a href=\"Check-Out.html\">გაწერა</a></li>\n' );
-document.write( '                                    <li id=\"n-.E1.83.97.E1.83.90.E1.83.95.E1.83.98.E1.83.A1-.E1.83.93.E1.83.90.E1.83.A6.E1.83.AC.E1.83.94.E1.83.95.E1.83.98.E1.83.A1-.E1.83.9D.E1.83.A1.E1.83.A2.E1.83.90.E1.83.A2.E1.83.98\"><a href=\"The_Escape_Artist.html\">თავის დაღწევის ოსტატი</a></li>\n' );
+document.write( '                                    <li id=\"n-.E1.83.97.E1.83.90.E1.83.95.E1.83.98.E1.83.A1-.E1.83.93.E1.83.90.E1.83.A6.E1.83.AC.E1.83.94.E1.83.95.E1.83.98.E1.83.A1-.E1.83.9D.E1.83.A1.E1.83.A2.E1.83.90.E1.83.A2.E1.83.98\"><a href=\"The_Escape_Artist.html\">თავის დაძვრენის ოსტატი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A9.E1.83.90.E1.83.AB.E1.83.98.E1.83.A0.E1.83.95.E1.83.90\"><a href=\"Plunge.html\">ჩაძირვა</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A3.E1.83.93.E1.83.90.E1.83.9C.E1.83.90.E1.83.A8.E1.83.90.E1.83.A3.E1.83.9A.E1.83.9D\"><a href=\"Presumed_Innocent.html\">უდანაშაულო</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.99.E1.83.A0.E1.83.98.E1.83.96.E1.83.98.E1.83.A1.E1.83.98\"><a href=\"Meltdown.html\">კრიზისი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A7.E1.83.A3.E1.83.97.E1.83.98\"><a href=\"The_Box.html\">ყუთი</a></li>\n' );
-document.write( '                                    <li id=\"n-.E1.83.A3.E1.83.AA.E1.83.95.E1.83.9A.E1.83.94.E1.83.9A.E1.83.98-.E1.83.A1.E1.83.98.E1.83.9B.E1.83.90.E1.83.A0.E1.83.97.E1.83.9A.E1.83.94\"><a href=\"The_Immutable_Truth.html\">უცვლელი სიმართლე</a></li>\n' );
+document.write( '                                    <li id=\"n-.E1.83.A3.E1.83.AA.E1.83.95.E1.83.9A.E1.83.94.E1.83.9A.E1.83.98-.E1.83.A1.E1.83.98.E1.83.9B.E1.83.90.E1.83.A0.E1.83.97.E1.83.9A.E1.83.94\"><a href=\"The_Immutable_Truth.html\">გარდაუვალი სიმართლე</a></li>\n' );
 document.write( '                                 </ul>\n' );
 document.write( '                              </div>\n' );
 document.write( '                           </div>\n' );
@@ -110,7 +110,7 @@ document.write( '                                 <ul class=\"wds-list wds-is-li
 document.write( '                                    <li id=\"n-.E1.83.A1.E1.83.98.E1.83.99.E1.83.95.E1.83.93.E1.83.98.E1.83.9A.E1.83.98-.E1.83.9D.E1.83.AF.E1.83.90.E1.83.AE.E1.83.A8.E1.83.98\"><a href=\"A_Death_in_the_Family.html\">სიკვდილი ოჯახში</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.90.E1.83.A0.E1.83.99.E1.83.90.E1.83.9C.E1.83.A3.E1.83.9B.E1.83.98.E1.83.A1-.E1.83.99.E1.83.9A.E1.83.A3.E1.83.91.E1.83.98\"><a href=\"The_Arcanum_Club.html\">არკანუმის კლუბი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.93.E1.83.90.E1.83.A0.E1.83.AC.E1.83.9B.E1.83.A3.E1.83.9C.E1.83.94.E1.83.91.E1.83.90\"><a href=\"Persuasion.html\">დარწმუნება</a></li>\n' );
-document.write( '                                    <li id=\"n-.E1.83.92.E1.83.90.E1.83.A3.E1.83.A2.E1.83.94.E1.83.AE.E1.83.90.E1.83.AA.E1.83.98\"><a href=\"Unbreak-Able.html\">გაუტეხავი</a></li>\n' );
+document.write( '                                    <li id=\"n-.E1.83.92.E1.83.90.E1.83.A3.E1.83.A2.E1.83.94.E1.83.AE.E1.83.90.E1.83.AA.E1.83.98\"><a href=\"Unbreak-Able.html\">უტეხი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.92.E1.83.90.E1.83.A0.E1.83.98.E1.83.92.E1.83.94.E1.83.91.E1.83.90\"><a href=\"The_Deal.html\">გარიგება</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.9C.E1.83.9D.E1.83.A0.E1.83.9B.E1.83.90-.E1.83.9A.E1.83.A3.E1.83.98.E1.83.A1.E1.83.98\"><a href=\"Norma_Louise.html\">ნორმა ლუისი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A1.E1.83.90.E1.83.98.E1.83.93.E1.83.A3.E1.83.9B.E1.83.9A.E1.83.9D-.E1.83.A1.E1.83.94.E1.83.A0.E1.83.9D.E1.83.91.E1.83.90\"><a href=\"The_Last_Supper.html\">საიდუმლო სერობა</a></li>\n' );
@@ -138,7 +138,7 @@ document.write( '                                    <li id=\"n-.E1.83.96.E1.83.
 document.write( '                                    <li id=\"n-.E1.83.92.E1.83.90.E1.83.A0.E1.83.93.E1.83.90.E1.83.A2.E1.83.94.E1.83.AE.E1.83.90\"><a href=\"Refraction.html\">გარდატეხა</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A1.E1.83.90.E1.83.AA.E1.83.90.E1.83.95.E1.83.98\"><a href=\"The_Vault.html\">საცავი</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A1.E1.83.90.E1.83.99.E1.83.A3.E1.83.97.E1.83.90.E1.83.A0-.E1.83.A1.E1.83.90.E1.83.AE.E1.83.9A.E1.83.A1-.E1.83.90.E1.83.A0.E1.83.90.E1.83.A4.E1.83.94.E1.83.A0.E1.83.98-.E1.83.A1.E1.83.AF.E1.83.9D.E1.83.91.E1.83.A1\"><a href=\"There\'s_No_Place_Like_Home.html\">საკუთარ სახლს არაფერი სჯობს</a></li>\n' );
-document.write( '                                    <li id=\"n-.E1.83.9B.E1.83.9D.E1.83.A6.E1.83.90.E1.83.9A.E1.83.90.E1.83.A2.E1.83.94\"><a href=\"Unfaithful.html\">მოღალატე</a></li>\n' );
+document.write( '                                    <li id=\"n-.E1.83.9B.E1.83.9D.E1.83.A6.E1.83.90.E1.83.9A.E1.83.90.E1.83.A2.E1.83.94\"><a href=\"Unfaithful.html\">ორგული</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.A1.E1.83.90.E1.83.9B.E1.83.A3.E1.83.93.E1.83.90.E1.83.9B.E1.83.9D.E1.83.93\"><a href=\"Forever.html\">სამუდამოდ</a></li>\n' );
 document.write( '                                    <li id=\"n-.E1.83.9C.E1.83.9D.E1.83.A0.E1.83.9B.E1.83.90.E1.83.9C.E1.83.98\"><a href=\"Norman.html\">ნორმანი</a></li>\n' );
 document.write( '                                 </ul>\n' );
@@ -423,7 +423,7 @@ document.write( '                                         <li id=\"n-.E1.83.99.E
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.92.E1.83.90.E1.83.AC.E1.83.94.E1.83.A0.E1.83.90\"><a href=\"Check-Out.html\">გაწერა</a>\n' );
 document.write( '                                         </li>\n' );
-document.write( '                                         <li id=\"n-.E1.83.97.E1.83.90.E1.83.95.E1.83.98.E1.83.A1-.E1.83.93.E1.83.90.E1.83.A6.E1.83.AC.E1.83.94.E1.83.95.E1.83.98.E1.83.A1-.E1.83.9D.E1.83.A1.E1.83.A2.E1.83.90.E1.83.A2.E1.83.98\"><a href=\"The_Escape_Artist.html\">თავის დაღწევის ოსტატი</a>\n' );
+document.write( '                                         <li id=\"n-.E1.83.97.E1.83.90.E1.83.95.E1.83.98.E1.83.A1-.E1.83.93.E1.83.90.E1.83.A6.E1.83.AC.E1.83.94.E1.83.95.E1.83.98.E1.83.A1-.E1.83.9D.E1.83.A1.E1.83.A2.E1.83.90.E1.83.A2.E1.83.98\"><a href=\"The_Escape_Artist.html\">თავის დაძვრენის ოსტატი</a>\n' );
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.A9.E1.83.90.E1.83.AB.E1.83.98.E1.83.A0.E1.83.95.E1.83.90\"><a href=\"Plunge.html\">ჩაძირვა</a>\n' );
 document.write( '                                         </li>\n' );
@@ -433,7 +433,7 @@ document.write( '                                         <li id=\"n-.E1.83.99.E
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.A7.E1.83.A3.E1.83.97.E1.83.98\"><a href=\"The_Box.html\">ყუთი</a>\n' );
 document.write( '                                         </li>\n' );
-document.write( '                                         <li id=\"n-.E1.83.A3.E1.83.AA.E1.83.95.E1.83.9A.E1.83.94.E1.83.9A.E1.83.98-.E1.83.A1.E1.83.98.E1.83.9B.E1.83.90.E1.83.A0.E1.83.97.E1.83.9A.E1.83.94\"><a href=\"The_Immutable_Truth.html\">უცვლელი სიმართლე</a>\n' );
+document.write( '                                         <li id=\"n-.E1.83.A3.E1.83.AA.E1.83.95.E1.83.9A.E1.83.94.E1.83.9A.E1.83.98-.E1.83.A1.E1.83.98.E1.83.9B.E1.83.90.E1.83.A0.E1.83.97.E1.83.9A.E1.83.94\"><a href=\"The_Immutable_Truth.html\">გარდაუვალი სიმართლე</a>\n' );
 document.write( '                                         </li>\n' );
 document.write( '                                      </ul>\n' );
 document.write( '                                   </div>\n' );
@@ -455,7 +455,7 @@ document.write( '                                         <li id=\"n-.E1.83.90.E
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.93.E1.83.90.E1.83.A0.E1.83.AC.E1.83.9B.E1.83.A3.E1.83.9C.E1.83.94.E1.83.91.E1.83.90\"><a href=\"Persuasion.html\">დარწმუნება</a>\n' );
 document.write( '                                         </li>\n' );
-document.write( '                                         <li id=\"n-.E1.83.92.E1.83.90.E1.83.A3.E1.83.A2.E1.83.94.E1.83.AE.E1.83.90.E1.83.AA.E1.83.98\"><a href=\"Unbreak-Able.html\">გაუტეხავი</a>\n' );
+document.write( '                                         <li id=\"n-.E1.83.92.E1.83.90.E1.83.A3.E1.83.A2.E1.83.94.E1.83.AE.E1.83.90.E1.83.AA.E1.83.98\"><a href=\"Unbreak-Able.html\">უტეხი</a>\n' );
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.92.E1.83.90.E1.83.A0.E1.83.98.E1.83.92.E1.83.94.E1.83.91.E1.83.90\"><a href=\"The_Deal.html\">გარიგება</a>\n' );
 document.write( '                                         </li>\n' );
@@ -497,7 +497,7 @@ document.write( '                                         <li id=\"n-.E1.83.A1.E
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.A1.E1.83.90.E1.83.99.E1.83.A3.E1.83.97.E1.83.90.E1.83.A0-.E1.83.A1.E1.83.90.E1.83.AE.E1.83.9A.E1.83.A1-.E1.83.90.E1.83.A0.E1.83.90.E1.83.A4.E1.83.94.E1.83.A0.E1.83.98-.E1.83.A1.E1.83.AF.E1.83.9D.E1.83.91.E1.83.A1\"><a href=\"There\'s_No_Place_Like_Home.html\">საკუთარ სახლს არაფერი სჯობს</a>\n' );
 document.write( '                                         </li>\n' );
-document.write( '                                         <li id=\"n-.E1.83.9B.E1.83.9D.E1.83.A6.E1.83.90.E1.83.9A.E1.83.90.E1.83.A2.E1.83.94\"><a href=\"Unfaithful.html\">მოღალატე</a>\n' );
+document.write( '                                         <li id=\"n-.E1.83.9B.E1.83.9D.E1.83.A6.E1.83.90.E1.83.9A.E1.83.90.E1.83.A2.E1.83.94\"><a href=\"Unfaithful.html\">ორგული</a>\n' );
 document.write( '                                         </li>\n' );
 document.write( '                                         <li id=\"n-.E1.83.A1.E1.83.90.E1.83.9B.E1.83.A3.E1.83.93.E1.83.90.E1.83.9B.E1.83.9D.E1.83.93\"><a href=\"Forever.html\">სამუდამოდ</a>\n' );
 document.write( '                                         </li>\n' );
