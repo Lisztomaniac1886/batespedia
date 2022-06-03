@@ -3538,7 +3538,6 @@ ul.footer-info li,ul.footer-places li {
   }
   .GalleryColumn1 img {
       height:100%;
-      object-fit: contain;
       vertical-align: middle;
   }
 /* The Modal (background) */
@@ -3601,8 +3600,8 @@ ul.footer-info li,ul.footer-places li {
   .prev,
   .next {
     cursor: pointer;
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    bottom: 150px;
     width: auto;
     padding: 16px;
     color: white;
@@ -3654,6 +3653,7 @@ ul.footer-info li,ul.footer-places li {
     background-color: black;
     padding: 2px 16px;
     color: white;
+    font-size: 14px;
   }
   
   .Gallery1Demo {

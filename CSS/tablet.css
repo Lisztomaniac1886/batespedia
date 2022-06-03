@@ -3543,7 +3543,6 @@ ul.footer-info li,ul.footer-places li {
   }
   .GalleryColumn1 img {
       height:100%;
-      object-fit: contain;
       vertical-align: middle;
   }
 /* The Modal (background) */
