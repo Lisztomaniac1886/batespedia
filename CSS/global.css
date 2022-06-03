@@ -232,3 +232,42 @@ font-family: Ertizomis1
 .modal a {
   color:#f2f2f2 !important;
 }
+
+
+
+
+
+.nav-category {
+  background-color: #262626;
+  background-image: none;
+  border: 1px solid gray;
+  clear: both;
+  font-size: 12px;
+  line-height: normal;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  position: relative;
+}
+.nav-category ul {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.nav-category ul li {
+  display: block;
+  float: left;
+  margin: 0 6px 6px 0;
+  border-right: 1px solid gray;
+  padding-right: 6px;
+}
+.div-category {
+  zoom: 1;
+  padding: 10px 20px 4px 20px;
+}
+.nav-category-special {
+  float: left;
+    margin-right: 6px;
+}
+.nav-category-special a {
+
+}
