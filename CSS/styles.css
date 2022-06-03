@@ -354,10 +354,10 @@ svg:not(:root) {
   /* Modal Content */
   .modal-content {
     position: relative;
+    background-color: #fefefe;
+    margin: auto;
     padding: 0;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
   }
   
   /* The Close Button */
@@ -475,8 +475,6 @@ svg:not(:root) {
     overflow: auto;
     white-space: nowrap;
     background-color: #1a1a1a;
-    bottom: 0px;
-    position: fixed;
 }
 
 
