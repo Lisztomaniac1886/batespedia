@@ -3655,6 +3655,7 @@ ul.footer-info li,ul.footer-places li {
     padding: 2px 16px;
     color: white;
     font-size: 14px;
+    display: none;
   }
   
   .Gallery1Demo {
