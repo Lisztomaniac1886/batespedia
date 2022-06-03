@@ -3611,7 +3611,7 @@ ul.footer-info li,ul.footer-places li {
   .next {
     cursor: pointer;
     position: absolute;
-    bottom: 18vh;
+    bottom: 36vh;
     width: auto;
     padding: 16px;
     margin-top: -50px;
