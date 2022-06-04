@@ -50,7 +50,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative !important;
-  cursor: url('../pictures/knife.svg'), auto;
+  /* cursor: url('../pictures/cursor.png'), auto; */
   }
   ::selection {
     color: white;
