@@ -223,10 +223,12 @@ font-family: Ertizomis1
   padding: 2px;
   margin-top: 10px;
   margin-bottom: 30px;
-  padding-left: 6px;
-  padding-right: 6px;
+  width: 96%;
   text-align:center;
   font-family: Ertizomis4;
+}
+.letterjump a {
+  padding: 2px;
 }
 .music{margin: 1em 0;border: 1px solid #a2a9b1;border-collapse: collapse;margin-left:auto;margin-right: auto;}
 .music tr td {border: 1px solid #a2a9b1;}
@@ -243,7 +245,7 @@ font-family: Ertizomis1
   background-image: none;
   border: 1px solid gray;
   clear: both;
-  font-size: 12px;
+  font-size: 16px;
   line-height: normal;
   margin: 10px 0 10px 0;
   padding: 0;
@@ -258,8 +260,12 @@ font-family: Ertizomis1
   display: block;
   float: left;
   margin: 0 6px 6px 0;
-  border-right: 1px solid gray;
-  padding-right: 6px;
+  border-left: 1px solid gray;
+  padding-right: 0px;
+  padding-left: 6px;
+}
+.nav-category ul li:first-child {
+  border-left: 0;
 }
 .div-category {
   zoom: 1;
