@@ -161,7 +161,9 @@ body {
 .unhiddensum {
     display:none;
 }
-
+.letterjump {
+    display:none;
+}
 
 
 
@@ -3695,4 +3697,7 @@ ul.footer-info li,ul.footer-places li {
     margin: auto;
     display: inline-block;
     touch-action: manipulation;
+}
+.wikiheader {
+    font-size: smaller;
 }
