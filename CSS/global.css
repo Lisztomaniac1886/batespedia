@@ -50,10 +50,15 @@ body {
   margin: 0;
   padding: 0;
   position: relative !important;
+  cursor: url('../pictures/knife.ico'), auto;
   }
   ::selection {
-    color: #113e57;
-    background: #72bcd4;
+    color: white;
+    background: red;
+  }
+  ::selection a {
+    color: #7bc0d5;
+    background: red;
   }
   /* width */
 ::-webkit-scrollbar {
