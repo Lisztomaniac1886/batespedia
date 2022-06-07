@@ -7,6 +7,11 @@
     margin-bottom: 0;
     height: auto;
 }
+.wikiheader {
+    padding-top: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
 .desktoponly {
   display:block;
 }

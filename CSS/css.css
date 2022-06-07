@@ -1,4 +1,5 @@
 @import url("global.css");
+@import url("linkcolor.css");
 @import url("bg.css") screen and (min-width: 1250px);
 @import url("mobile.css") screen and (max-width: 720px);
 @import url("tablet.css") screen and (max-width: 1250px) and (min-width: 720px);

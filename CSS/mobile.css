@@ -3,6 +3,12 @@ body {
     line-height: 1.65;
     word-wrap: break-word;
 }
+.wikiheader {
+    font-size: smaller;
+    padding-top: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
 .contents {
   background-color: black;
   width:100%;
@@ -3697,7 +3703,4 @@ ul.footer-info li,ul.footer-places li {
     margin: auto;
     display: inline-block;
     touch-action: manipulation;
-}
-.wikiheader {
-    font-size: smaller;
 }
